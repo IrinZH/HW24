@@ -1,0 +1,119 @@
+.offer
+  background: url('../img/offer/offer-bg.jpg') no-repeat
+  background-position: center right
+  background-size: contain
+  position: relative
+  padding: 75px 0 96px 0
+  &:before
+    content: ''
+    width: 50%
+    height: 100%
+    position: absolute
+    top: -0
+    left: 0
+    background-color: #ffffff
+    
+  &-block
+    width: 50%
+    padding-right: 90px
+    position: relative
+    
+  &__title
+    max-width: 360px
+    line-height: 35px
+    margin-bottom: 21px
+    margin-top: 0px
+    margin-left: 0
+    text-align: left
+  &__subtitle
+    max-width: 250px
+    margin-bottom: 34px
+    display: block
+  &__input
+    margin-bottom: 32px
+    width: 238px
+    &:first-child
+      margin-right: 11px
+  &__button
+    width: 100%
+    min-height: 70px
+    font-size: 16px
+    +bold
+  &-blockdesc
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    width: 490px
+  &__description
+    display: block
+    margin-top: 25px
+    height: 40px
+    font-size: 15px
+    line-height: 24px
+    &:last-child
+      margin-left: 50px
+    
+  &__phone
+    +bold
+    display: inline-block
+    color: $text-color
+    text-decoration: none
+@media (max-width: 1200px)
+  .offer
+    background-size: cover
+    &-blockdesc 
+      display: flex
+      flex-wrap: wrap
+      max-width: 400px
+    &__description
+      flex-direction: column
+      margin-top: 32px
+      &:last-child
+        margin-left: 0
+    &__input
+      width: 100%
+      margin-bottom: 10px
+    &__button
+        font-size: 13px
+@media (max-width: 768px)
+  .offer
+    background: #ffffff
+    padding: 10px 0 60px 0
+    &-block
+      width: 100%
+      padding: 0 0
+      margin-bottom: 0
+    &__title
+      max-width: 260px
+      font-size: 18px
+      line-height: 20px
+      margin: 0px auto 21px 0
+    &__subtitle
+      font-size: 14px
+      line-height: 16px
+      margin: 0 auto 34px 0
+    &-blockdesc 
+      display: flex
+      flex-wrap: wrap
+      max-width: 260px
+    &__description
+      flex-direction: column
+      margin-top: 20px
+      height: 40px
+      font-size: 15px
+      line-height: 24px
+      &:last-child
+        margin-left: 0
+        margin-top: 14px
+        margin-bottom: 2px
+    &__input
+        min-width: 275px
+    &__button
+        margin-top: 5px
+        font-size: 14px
+        padding: 18px 61px
+        min-width: 275px
+
+
+
