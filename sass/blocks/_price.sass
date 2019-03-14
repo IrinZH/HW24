@@ -16,12 +16,6 @@
 .card
   text-align: center
   border: 1px solid $border-card
-  &:hover
-    box-shadow: 0 20px 25px rgba(0,0,0,0.1)
-    transition: 0.2s
-    .card__image:before
-      opacity: 0.8
-      transition: 0.2s
   &__text
     padding: 35px
   &__title
@@ -46,9 +40,6 @@
     font-size: 16px
     position: relative
     color: $text-color
-    &:hover
-      &:after
-        height: 12px
     &:after
       content: ''
       position: absolute
