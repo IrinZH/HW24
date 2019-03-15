@@ -482,12 +482,6 @@ img {
   display: block;
 }
 
-#close:hover {
-  background-color: #ffd200;
-  cursor: pointer;
-  border: none;
-}
-
 .animated {
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
@@ -1948,5 +1942,13 @@ iframe {
   position: absolute;
   top: 0;
   right: 0;
+  min-width: 20px;
+  border: none;
+}
+
+.modal-dialog__close:hover {
+  background-color: #ffd200;
+  cursor: pointer;
+  border: none;
 }
 /*# sourceMappingURL=style.css.map */
