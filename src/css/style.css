@@ -1936,14 +1936,16 @@ iframe {
   min-width: 200px;
   background-color: #fff;
   padding: 40px;
+  border: none;
 }
 
 .modal-dialog__close {
   position: absolute;
   top: 0;
   right: 0;
-  min-width: 20px;
+  min-width: 25px;
   border: none;
+  outline: none;
 }
 
 .modal-dialog__close:hover {
