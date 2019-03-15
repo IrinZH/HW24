@@ -482,6 +482,12 @@ img {
   display: block;
 }
 
+#close:hover {
+  background-color: #ffd200;
+  cursor: pointer;
+  border: none;
+}
+
 .animated {
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
