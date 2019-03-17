@@ -50,7 +50,7 @@ img
 @media (max-width: 320px)
   .container
     max-width: 320px
-    width: 85%
+    width: 90%
 .button
   border-radius: 10px
   background-color: $main-color
@@ -73,13 +73,19 @@ img
   border-radius: 10px
   outline: none
 
+
 .arrows
   &__left, &__right
     &:hover
       cursor: pointer
 
-.error
+
+label
+  margin-left: 20px
   +bold
-  display: block
+  display: inline-block
+  
+input.invalid
+  border: 1px solid red
 
 

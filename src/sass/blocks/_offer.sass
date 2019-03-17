@@ -30,11 +30,14 @@
     margin-bottom: 34px
     display: block
   &__input
-    margin-bottom: 32px
+    margin-bottom: 7px
+    margin-top: 7px
     width: 238px
     &:first-child
       margin-right: 11px
+      margin-top: 0
   &__button
+    margin-top: 11px
     width: 100%
     min-height: 70px
     font-size: 16px
@@ -62,6 +65,7 @@
 @media (max-width: 1200px)
   .offer
     background-size: cover
+    
     &-blockdesc 
       display: flex
       flex-wrap: wrap
@@ -74,16 +78,21 @@
     &__input
       width: 100%
       margin-bottom: 10px
+      
     &__button
-        font-size: 13px
+      width: 100%
+      font-size: 13px
+      
 @media (max-width: 768px)
   .offer
     background: #ffffff
     padding: 10px 0 60px 0
     &-block
-      width: 100%
+      width: 65%
       padding: 0 0
       margin-bottom: 0
+      margin-left: auto
+      margin-right: auto
     &__title
       max-width: 260px
       font-size: 18px
@@ -114,6 +123,20 @@
         font-size: 14px
         padding: 18px 61px
         min-width: 275px
-
+        
+@media (max-width: 380px)
+  .offer
+    &-block
+      width: 100%
+    &__input
+      min-width: 275px
+    &__button
+      min-width: 275px
+@media (max-width: 320px)
+  .offer
+    &__input
+      width: 275px
+    &__button
+      width: 275px
 
 
